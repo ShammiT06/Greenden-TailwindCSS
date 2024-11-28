@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+     <section class="bg-green-300 flex justify-between items-center p-5 shadow-xl sticky top-0 z-20">
+        <h1 class="p-4 text-2xl font-bold font-serif">Greenden</h1>
+        <svg id="menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+
+        <ul class="flex gap-4 font-bold text-xl hidden md:flex">
+            <li class="text-gray-700 hover:underline hover:text-black">
+            <a href="./index.html">Home</a>
+            </li>
+            <li class="text-gray-700 hover:underline hover:text-black">
+                <a href="./contact.html">Contact</a>
+            </li>
+
+        </ul>
+     </section>
+      <!-- SideNav -->
+      <section id="sidenav"  class="bg-green-300 fixed z-20 top-0 transition-all" style="width: 50%; height: 100vh; right:-50%; transition: 2s;">
+        <div class="grid justify-end p-5" >
+            <img id="close-nav" class="inline cursor-pointer" width="30" height="30" src="https://img.icons8.com/emoji/48/cross-mark-emoji.png" alt="cross-mark-emoji"/>
+        </div>
+        <ul class="flex  flex-col items-center  gap-10">
+            <li>
+                <a class="text-gray-600 hover:underline hover:text-black text-2xl" href="./index.html">Home</a>
+            </li>
+            <li>
+                <a class="text-gray-600 hover:underline hover:text-black  text-2xl" href="./index1.html">Products</a>
+            </li>
+            <li>
+                <a class="text-gray-600 hover:underline hover:text-black  text-2xl" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+
+     </section>
+    <!-- Product Page -->
+    <section class="p-5 m-3 text-center">
+        <h1 class="font-bold text-4xl">Our Products</h1>
+        <div>
+            <input style="width: 80%;" class="mt-10 border border-black p-2 m-5" type="text" id="search">
+        </div>
+    </section>
+    <!-- Images -->
+    <section class="p-5 m-3">
+        <div id="product-cont" class="grid grid-cols-4 text-center gap-4">
+            <div>
+                <img class="inline hover:shadow-2xl  transform hover:-translate-y-2" src="./image/bestseller_1.jpg"
+                    alt="">
+                <h1>Lotus Plant</h1>
+                <p>&#8377;300</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-2xl  transform hover:-translate-y-2" src="./image/bestseller_2.jpg"
+                    alt="">
+                <h1>Rose Plant</h1>
+                <p>&#8377;300</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-2xl  transform hover:-translate-y-2" src="./image/bestseller_3.jpg"
+                    alt="">
+                <h1>Jasmine Plant</h1>
+                <p>&#8377;300</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-2xl  transform hover:-translate-y-2" src="./image/bestseller_4.jpg"
+                    alt="">
+                <h1>Cactus Plant</h1>
+                <p>&#8377;300</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-2xl  transform hover:-translate-y-2" src="./image/bestseller_5.jpg"
+                    alt="">
+                <h1>Snake Plant</h1>
+                <p>&#8377;300</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-2xl  transform hover:-translate-y-2" src="./image/bestseller_6.jpg"
+                    alt="">
+                <h1>Tulusi Plant</h1>
+                <p>&#8377;300</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-2xl  transform hover:-translate-y-2" src="./image/bestseller_7.jpg"
+                    alt="">
+                <h1>corky-stem passion</h1>
+                <p>&#8377;800</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-2xl  transform hover:-translate-y-2" src="./image/bestseller_8.jpg"
+                    alt="">
+                <h1>Poinsettia</h1>
+                <p>&#8377;1300</p>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+     <section class="bg-green-300 p-5">
+        <h1 class="text-bolder font-serif text-4xl">Greenden</h1> 
+        <p> <p>Every plant we nurture is a step toward a healthier planet.</p></p>
+        <p>Growing plants is a responsibility we take seriously-today for tomorrow.</p>
+        <p class="text-sm">&copy;Greenden 2024. All Rights Reserved</p>
+
+     </section>
+     <script src="product.js"></script>
+
+</body>
+
+</html>
